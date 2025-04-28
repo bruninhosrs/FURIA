@@ -1,11 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FURIA Esportes - Fãs de CS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link 
+rel="preconnect" 
+href="https://fonts.gstatic.com" 
+crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="js/script.js" defer></script>
 </head>
 <body>
-    
+     <header>
+        <div id="container-principal">
+            <img src="img/Furia_Esports_logo.png" alt="Logo FURIA Esportes" id="logo-furia">
+            <div id="navbar">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#jogadores">Jogadores</a></li>
+                        <li><a href="#chat">Chat</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+     </header>
+     <section id="banner">
+        <h1>Bem-vindo à Fúria!</h1>
+        <p>Conecte-se com a torcida mais feroz do CS!</p>
+        <a href="#chat" class="btn">Converse com a Fúria</a>
+    </section>
+     <section id="sobre">
+        <div class="container">
+            <h2>Sobre o Time</h2>
+            <p>FURIA é uma organização brasileira que atua nas modalidades de e-sports em Counter-Strike 2, Rocket League, League of Legends, Valorant, Rainbow Six: Siege, Apex Legends, e Futebol de 7.
+                Fundada em 2017, a FURIA possui o time de Counter-Strike que melhor desempenha nas competições internacionais mais recentes, sempre a frente nas colocações entre equipes do país.
+                A organização foi eleita por dois anos consecutivos, em 2020 e 2021, como a melhor organização de esportes eletrônicos no Prêmio eSports Brasil.
+                Em 2022, foi apontada como a quinta maior organização de esportes eletrônicos do mundo pelo portal norte-americano Nerd Street.
+            </p>
+        </div>
+     </section>
+     <section id="jogadores">
+        <h2>Jogadores</h2>
+        <div class="container">
+            <div class="card-jogador">
+                <img src="img/fallen-furia-cs.webp" alt="Fallen">
+                <h3>Gabriel Toledo - FalleN</h3>
+                <p>Função: Rifler</p>
+            </div>
+            <div class="card-jogador">
+                <img src="img/yuurih-furia-cs2-.jpg" alt="Yuurih">
+                <h3>Yuri Santos - yuurih</h3>
+                <p>Função: Rifler</p>
+            </div>
+            <div class="card-jogador">
+                <img src="img/kscerato-furia-cs.jpg" alt="Kscerato">
+                <h3>Kaike Cerato - KSCERATO</h3>
+                <p>Função: Rifler</p>
+            </div>
+            <div class="card-jogador">
+                <img src="img/YEKINDAR-furia-cs.jpg" alt="Yekindar">
+                <h3>Mareks Gaļinskis - YEKINDAR</h3>
+                <p>Função: Rifler</p>
+            </div>
+            <div class="card-jogador">
+                <img src="img/molodoy-furia-cs.webp" alt="Molodoy">
+                <h3>Danil Golubenko - molodoy</h3>
+                <p>Função: AWPer</p>
+            </div>
+            <div class="card-jogador">
+                <img src="img/sidde-furia-cs.jpg" alt="Sidde">
+                <h3>Sid Macedo - sidde</h3>
+                <p>Função: Treinador/Coach</p>
+            </div>
+            <div class="card-jogador">
+                <img src="img/hepa-furia-cs.jpg" alt="Hepa">
+                <h3>Juan Borges - Hepa</h3>
+                <p>Função: Assistant Coach</p>
+            </div>
+        </div>
+     </section>
+     <section id="chat">
+        <div class="container">
+            <h2>CHAT</h2>
+            <div id="chat-box">
+
+            </div>
+            <input type="text" id="user-input" placeholder="Digite sua mensagem para o time...">
+            <button id="send-button">Enviar</button>
+        </div>
+     </section>
+     <footer>
+        <div class="container">
+            <p>© 2025 FURIA Esports - Todos os direitos reservados</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/furiagg/" target="_blank">Instagram</a>
+                <a href="https://www.furia.gg/" target="_blank">Site Oficial</a>
+            </div>
+        </div>
+     </footer>
 </body>
 </html>
