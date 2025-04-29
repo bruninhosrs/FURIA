@@ -72,7 +72,8 @@ header {
 }
 
 #banner p {
-    font-size: 1.5rem;
+    color: #ffcc00;
+    font-size: 2rem;
     margin-bottom: 30px;
 }
 
