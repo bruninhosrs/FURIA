@@ -140,36 +140,110 @@ header {
     transform: translateY(-10px);
 }
 
+/* Estilos da seção de Conquistas */
+#titulo {
+    background-color: #0d0d0d; /* Fundo preto escuro */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#titulo h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+#tabela-titulo {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#tabela-titulo th,
+#tabela-titulo td {
+    border: 1px solid #333333;
+    padding: 15px;
+    color: #ffffff;
+}
+
+#tabela-titulo th {
+    background-color: #1a1a1a;
+    font-size: 1.2rem;
+}
+
+#tabela-titulo td {
+    background-color: #262626;
+    font-size: 1rem;
+}
+
 /* Chat */
 #chat {
-    padding: 60px 0;
+    background-color: #0d0d0d; /* Fundo igual ao das conquistas */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#chat h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
 }
 
 #chat-box {
-    background-color: #333;
-    height: 200px; /* Altura menor */
-    margin: 20px 0;
-    padding: 10px;
-    overflow-y: auto;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto 20px;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
     border-radius: 10px;
+    padding: 15px;
+    overflow-y: auto; /* Scroll automático para mensagens */
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.bot-message {
+    align-self: flex-start;
+    background-color: #262626;
+    color: #ffffff;
 }
 
 #user-input {
-    width: 80%;
+    width: 70%;
     padding: 10px;
-    margin-right: 10px;
+    border: 1px solid #333333;
     border-radius: 5px;
-    border: none;
+    margin-right: 10px;
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
 
 #send-button {
     padding: 10px 20px;
     background-color: #ffcc00;
+    color: #000000;
     border: none;
     border-radius: 5px;
-    font-weight: bold;
     cursor: pointer;
-    transition: background 0.3s;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 #send-button:hover {
@@ -230,6 +304,12 @@ footer p {
 
     #send-button {
         width: 100%;
+    }
+
+    #tabela-conquistas th,
+    #tabela-conquistas td {
+        padding: 10px;
+        font-size: 0.9rem;
     }
 }
 
